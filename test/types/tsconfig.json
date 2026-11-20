@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "moduleResolution": "node10",
+    "strict": true,
+    "noEmit": true,
+    "noUnusedLocals": false,
+    "paths": {
+      "passport-hytale": ["../../lib/index.d.ts"]
+    }
+  },
+  "files": ["cjs.ts"]
+}
